@@ -1,3 +1,15 @@
+// Search Box Enter Press :::
+const searchBtn = document.getElementById("button-search");
+const searchFld = document.getElementById("search-field");
+
+searchFld.addEventListener("keypress", function(event) {
+    console.log(event.key);
+    if (event.key == 'Enter'){ 
+    searchBtn.click();
+}
+});
+
+
 document.getElementById('error-message').style.display = 'none';
 const searchFood = () => {
     const serchField = document.getElementById('search-field');
