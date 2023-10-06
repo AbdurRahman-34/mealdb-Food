@@ -9,7 +9,6 @@ searchFld.addEventListener("keypress", function(event) {
 }
 });
 
-
 document.getElementById('error-message').style.display = 'none';
 const searchFood = () => {
     const serchField = document.getElementById('search-field');
